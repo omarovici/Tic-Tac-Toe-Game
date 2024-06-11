@@ -1,11 +1,13 @@
 #include <iostream>
 using namespace std;
+
 char arr[3][3] = { {'1', '2', '3'}, {'4', '5', '6'}, {'7', '8', '9'} };
 int choice;
 int row, column;
 char turn = 'X';
 bool draw = false;
 int winnerX = 0 , winnerO = 0 , tieXO  = 0 ;
+
 void display()
 {
     cout << "☆ T i C • T A C • T O E ☆" << endl;
