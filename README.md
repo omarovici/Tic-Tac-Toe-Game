@@ -10,6 +10,7 @@ This Tic-Tac-Toe project is a console-based game developed in C++. It allows pla
 - `bool draw`: Indicates whether the game is a draw.
 - `int winnerX, winnerO, tieXO`: Counters for the number of wins by 'X', 'O', and ties.
 
+
 #### Functions
 - **display()**: Displays the current state of the game board.
 - **winner()**: Checks for a winner or a draw. Returns:
