@@ -2,6 +2,7 @@
 
 This Tic-Tac-Toe project is a console-based game developed in C++. It allows players to either play against another human or against an AI with two levels of difficulty (Easy and Hard). Below is a detailed description of the components and functionality of the program.
 
+
 #### Global Variables
 - `char arr[3][3]`: A 3x3 matrix representing the game board, initialized with numbers 1-9.
 - `int choice`: Stores the user's choice of cell.
