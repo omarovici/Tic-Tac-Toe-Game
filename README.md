@@ -2,7 +2,6 @@
 
 This Tic-Tac-Toe project is a console-based game developed in C++. It allows players to either play against another human or against an AI with two levels of difficulty (Easy and Hard). Below is a detailed description of the components and functionality of the program.
 
-!!
 #### Global Variables
 - `char arr[3][3]`: A 3x3 matrix representing the game board, initialized with numbers 1-9.
 - `int choice`: Stores the user's choice of cell.
@@ -10,7 +9,6 @@ This Tic-Tac-Toe project is a console-based game developed in C++. It allows pla
 - `char turn`: Keeps track of whose turn it is ('X' or 'O').
 - `bool draw`: Indicates whether the game is a draw.
 - `int winnerX, winnerO, tieXO`: Counters for the number of wins by 'X', 'O', and ties.
-!!
 
 #### Functions
 - **display()**: Displays the current state of the game board.
